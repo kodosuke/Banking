@@ -1,3 +1,6 @@
+
+// A function to generate random passwords based on the provided length.
+
 const generatePassword = (passwordLength) => {
 
     const lowerCases = "abcdefghjkmnpqrstuvwxyz";
