@@ -15,9 +15,14 @@ const generatePassword = (passwordLength) => {
         passwordChars.push(chars[index]);
     }
 
-    console.log(passwordChars.join(''));
+    return passwordChars.join('');
 
 }
 
+const showPassword = () => {
+    let passwordLength = document.getElementById("passwordLength").value;
+    let password = generatePassword(passwordLength);
+    alert(password);
+}
 
-document.addEventListener("DOMContentLoaded", () => generatePassword(16))
+// document.addEventListener("DOMContentLoaded", () => generatePassword(16))
