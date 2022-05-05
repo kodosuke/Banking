@@ -1,8 +1,7 @@
-
 // A function to generate random passwords based on the provided length.
 
 const generatePassword = (passwordLength) => {
-    
+
     /* 
     passwordLength : Number 
     **/
@@ -32,8 +31,4 @@ const showPassword = () => {
     alert(password);
 }
 
-<<<<<<< HEAD
 // document.addEventListener("DOMContentLoaded", () => generatePassword(16))
-=======
-document.addEventListener("DOMContentLoaded", () => generatePassword(16))
->>>>>>> 3b5c690e5f5bf1a63988ad3927cfb7217bb11361
